@@ -1,2 +1,2 @@
 # Maplestory_Generate_Guild_Photo
-unity project generate guild photo for reduce spend time use photoshop
+unity project generate guild photo for reduce spend time to use photoshop
