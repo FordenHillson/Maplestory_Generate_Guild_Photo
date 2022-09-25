@@ -11,13 +11,13 @@ public class Posmanage : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        nameTxt = this.transform.Find("NameText").GetComponent<TMP_Text>(); 
+        nameTxt = this.transform.Find("Name").GetComponent<TMP_Text>(); 
         nameStr = "Name";      
     }
 
     // Update is called once per frame
     void Update()
     {
-        nameTxt.text = nameStr.ToString();
+        nameTxt.text = nameStr;
     }
 }

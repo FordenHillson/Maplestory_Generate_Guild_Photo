@@ -445,7 +445,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 2.2882}
+  m_AnchoredPosition: {x: 0, y: 2.2882004}
   m_SizeDelta: {x: 0, y: -4.5764}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &280246659
@@ -1753,6 +1753,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1973049971}
     m_Modifications:
+    - target: {fileID: 82799590385970832, guid: ea90b8654315de047a557451352d0548, type: 3}
+      propertyPath: m_SortingOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 82799590385970832, guid: ea90b8654315de047a557451352d0548, type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
       value: 25
@@ -3367,7 +3371,7 @@ Canvas:
   m_GameObject: {fileID: 1717514055}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 519420031}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
